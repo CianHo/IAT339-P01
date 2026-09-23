@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>P01 - Style Guide Template</h1>
+
+      <p>A template you can use to start building out your own style guides with.</p>
+
+
+      <nav>        
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="product_listing.html">Product Listing Template</a>
+        <a href="checkout.html">Checkout Template</a>
+        <a href="#citations">Citations</a>
+      </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+        <h3>In-text link</h3>
+         <h4>Sample code:</h4>
+          <code>&lt;a href="url" class="inTextLink" &gt;link text&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+          <p>Here is an example text with a <a class="inTextLink" href="https://www.w3schools.com/html/html_links.asp">link</a>.</p>
+        <!-- studied up on using anchors from here: https://www.w3schools.com/html/html_links.asp -->
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+      </section>
+
+      <!-- Reformatted to wrap the label around the input per: https://learn.shayhowe.com/html-css/building-forms/ -->
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+        <h4>Sample code:</h4>
+          <code>&lt;form&gt;&lt;label for="inputName" name="inputName"&gt; label text &lt;input type="text" id="inputName"&gt; &lt;/label&gt;&lt;/form&gt;
+             </code>
+        <h4>Rendered element:</h4>
+          <form class="textInputInteractable"><label for="TextInputWLabel" class="textInputInteractableLabel">Text Input with Label <input class="textInputInteractableBox" type="text" id="TextInputWLabel" name="textInputWLabel" placeholder=" "/></label></form>
+          <!-- <input type="text" id="TextInputWLabel" name="textInputWLabel"/> -->
+      </section>
+
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        <h4>Sample code:</h4>
+          <code>&lt;a href="url" class="imageLink" &gt;&lt;img src="img source" &gt;&lt;/a&gt;</code>
+        <h4>Rendered element:</h4>
+          <a class="imageLink" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img"><img src="img\nwnEye.png"></a>
+      <!-- had to remind myself about which attribute let me determine image source by looking at https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img -->
+        </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+        <h4>Sample code:</h4>
+          <code>&lt; h1 &gt;&lt; h2 &gt;&lt; h3 &gt;&lt; h4 &gt;</code>
+
+        <h4>Rendered element:</h4>
+          <h1>First layer of headers</h1>
+            <h2>Second layer of headers</h2>
+              <h3>Third layer of headers</h3>
+                <h4>Fourth layer of headers</h4>
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        <h4>Sample code:</h4>
+          <code>&lt;p&gt;paragraph text&lt;/p&gt;</code>
+
+        <h4>Rendered element:</h4>
+          <p>sample paragraph text</p>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+      </section>
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+      </section>
+
+      <section class="element">
+        <h3>Payment Form</h3>
+      </section>
+
+      <section class="element">
+        <h3>Checkout Cart</h3>
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
+        <li>studied up on using anchors from here: https://www.w3schools.com/html/html_links.asp </li>
+        <li>had to remind myself about which attribute let me determine image source by looking at https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img</li>
+        <li>learned how to make the text field with this: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input</li>
+        <li>didn't know the limit on headers was h6 before I read from this page: https://teamtreehouse.com/community/can-you-use-more-than-7-headers</li>
+      </ul>
+
+    </section>
+
+
+
+  </body>
+</html>

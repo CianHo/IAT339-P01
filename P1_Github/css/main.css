@@ -1,0 +1,113 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  /* from lecture */
+  font-family: "Times New Roman", Times, sans-serif;
+  padding: 2rem;
+}
+
+/* from lecture */
+section {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+h2 {
+  margin-top: 6rem;
+}
+
+h3 {
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+h4 {
+  margin-bottom: 0.25rem;
+}
+
+p {
+  margin-top: 0;
+
+  /* from lecture */
+  width: 75%;
+  /* highlighted to show width */
+  background-color: yellow;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  background-color: #eee;
+  padding: 0.5rem;
+  display: block;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(50, 50, 50);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover,
+.button-nav:focus {
+  background-color: rgb(200, 200, 200);
+}
+
+/* got this from lecture */
+.inTextLink:hover,
+.inTextLink:focus {
+  background-color: red;
+}
+
+/* looked at https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/filter */
+.imageLink:hover,
+.imageLink:focus {
+  filter: invert(100%);
+}
+
+/* from lecture, idea to put it all under one umbrella is from https://learn.shayhowe.com/html-css/building-forms/*/
+.textInputInteractable {
+  width: 20em;
+  padding: 0.1em;
+  background: grey;
+}
+
+/* .textInputInteractableLabel {
+  background: red;
+} */
+
+.textInputInteractableBox:hover,
+.textInputInteractableBox:focus,
+/* got this trick from here: https://stackoverflow.com/questions/16952526/detect-if-an-input-has-text-in-it-using-css-on-a-page-i-am-visiting-and-do-no */
+.textInputInteractableBox:not(:placeholder-shown) {
+  background: blue;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
