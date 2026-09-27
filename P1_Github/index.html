@@ -180,24 +180,96 @@
 
       <section class="element">
         <h3>Main Navigation</h3>
+        <h4>Sample code:</h4>
+        <h4>Rendered element:</h4>
+          <nav class="nav-main">
+              <a href="#home" class="nav-main-item">Home</a>
+              <a href="#products" class="nav-main-item">Products</a>
+              <a href="#services" class="nav-main-item">Services</a>
+              <a href="#about" class="nav-main-item">About</a>
+              <a href="#contact" class="nav-main-item">Contact Us</a>
+          </nav>
+              <!--Referenced the Robot demo-->
       </section>
 
       <section class="element">
         <h3>Product/Service Listing</h3>
+        <h4>Sample code:</h4>
+        <h4>Rendered element:</h4>
+          <h3>Tajin</h3>
+          <img>
+          <p>$9.99 per Unit</p>
+          <a href="#more-info" target="_self">More Info</a>
+          <!--Learned more about target attributes here: https://www.w3schools.com/tags/att_a_target.asp-->
       </section>
 
       <section class="element">
         <h3>Payment Form</h3>
+        <h4>Sample code:</h4>
+        <h4>Rendered element:</h4>
+          <h3>Payment</h3>
+          <fieldset id="payment-selector">
+            <input type="radio" id="mastercard" name="rad_btn" value="MCard">
+            <label for="mastercard">Mastercard</label> <br>
+            <input type="radio" id="visa" name="rad_btn" value="Visa">
+            <label for="visa">Visa</label>
+            <input type="radio" id="amex" name="rad_btn" value="AmEx">
+            <label for="amex">American Express</label>
+          </fieldset>
+          <fieldset id="card-info">
+            <input type="text" placeholder="Card Number">
+            <input type="text" placeholder="Expiration Date (MM/YY)">
+            <input type="text" placeholder="Security Code">
+            <input type="text" placeholder="Name On Card">
+          </fieldset>
+          <h3>Billing address</h3>
+          <fieldset id="billing">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Company">
+            <input type="text" placeholder="Adress">
+            <input type="text" placeholder="City">
+            <input type="text" placeholder="Province">
+            <input type="text" placeholder="Postal Code">
+            <input type="text" placeholder="Phone">
+            <input type="text" placeholder="Email">
+          </fieldset>
+          <input type="submit" name="payment" value="Pay Now">
       </section>
 
       <section class="element">
         <h3>Checkout Cart</h3>
+        <h4>Sample code:</h4>
+        <h4>Rendered element:</h4>
+        <h3>Checkout</h3>
+          <fieldset id="product-info">
+            <h4 class="product-name">Product</h4>
+            <h4 class="product-unit">Units</h4>
+            <h4 class="product-price">Price</h4>
+          </fieldset>
+        <fieldset id="product-list">
+          <p class="product-name">Tajin</p>
+          <p class="product-unit">50</p>
+          <p class="product-price">499.50</p>
+          <p class="product-name">Postobon Manzana</p>
+          <p class="product-unit">70</p>
+          <p class="product-price">489.30</p>
+        </fieldset>
+        <fieldset id="checkout-total">
+          <p class="charge-name">Subtotal</p>
+          <p class="charge-amount">$988.80</p>
+          <p class="charge-name">Shipping (Estimated)</p>
+          <p class="charge-amount">$xxxxx</p>
+          <p class="charge-name">Taxes</p>
+          <p class="charge-amount">$xxxxx</p>
+          <p class="charge-name cart-total">Total (Estimated)</p>
+          <p class="charge-amount cart-total">$xxxxxx</p>
+          <!--Learned that an element can have more than one class here: https://www.w3schools.com/html/html_classes.asp-->
+        </fieldset>
       </section>
 
     </section>
     <!-- // COMBINED ELEMENTS SECTION -->
-
-
 
     <section id="citations">
       <h2>Citations</h2>
@@ -210,6 +282,8 @@
         <li>had to remind myself about which attribute let me determine image source by looking at https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img</li>
         <li>learned how to make the text field with this: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input</li>
         <li>didn't know the limit on headers was h6 before I read from this page: https://teamtreehouse.com/community/can-you-use-more-than-7-headers</li>
+        <li>Learned more about target attributes here: https://www.w3schools.com/tags/att_a_target.asp</li>
+        <li>Learned that an element can have more than one class here: https://www.w3schools.com/html/html_classes.asp</li>
       </ul>
 
     </section>
