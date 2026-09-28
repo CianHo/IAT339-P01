@@ -181,6 +181,15 @@
       <section class="element">
         <h3>Main Navigation</h3>
         <h4>Sample code:</h4>
+          <code>
+            &lt;nav class="nav-main"&gt; <br>
+              &lt;a href="#home" class="nav-main-item"&gt;Home&lt;/a&gt; <br>
+              &lt;a href="#products" class="nav-main-item"&gt;Products&lt;/a&gt; <br>
+              &lt;a href="#services" class="nav-main-item"&gt;Services&lt;/a&gt; <br>
+              &lt;a href="#about" class="nav-main-item"&gt;About&lt;/a&gt; <br>
+              &lt;a href="#contact" class="nav-main-item"&gt;Contact Us&lt;/a&gt; <br>
+            &lt;/nav&gt;
+          </code>
         <h4>Rendered element:</h4>
           <nav class="nav-main">
               <a href="#home" class="nav-main-item">Home</a>
@@ -195,77 +204,149 @@
       <section class="element">
         <h3>Product/Service Listing</h3>
         <h4>Sample code:</h4>
+          <code>
+            &lt;div id="product-listing"&gt; <br>
+              &lt;figure&gt; <br>
+                &lt;img src="img/tajin.jpg" alt="A bottle of Tajin brand seasoning"&gt; <br>
+                &lt;figcaption&gt;$9.99 per Unit&lt;/figcaption&gt; <br>
+              &lt;/figure&gt; <br>
+              &lt;h4&gt;Tajin&lt;/h4&gt; <br>
+              &lt;a href="#more-info" target="_self"&gt;More Info&lt;/a&gt; <br>
+            &lt;/div&gt;
+          </code>
         <h4>Rendered element:</h4>
-          <h3>Tajin</h3>
-          <img>
-          <p>$9.99 per Unit</p>
-          <a href="#more-info" target="_self">More Info</a>
-          <!--Learned more about target attributes here: https://www.w3schools.com/tags/att_a_target.asp-->
+          <div id="product-listing">
+            <figure>
+              <img src="img/tajin.jpg" alt="A bottle of Tajin brand seasoning">
+              <figcaption>$9.99 per Unit</figcaption>
+            </figure>
+            <h4>Tajin</h4>
+            <a href="#more-info" target="_self">More Info</a>
+            <!--Learned more about target attributes here: https://www.w3schools.com/tags/att_a_target.asp-->
+          </div>
       </section>
 
       <section class="element">
         <h3>Payment Form</h3>
         <h4>Sample code:</h4>
+          <code>
+            &lt;h3&gt;Payment&lt;/h3&gt; <br>
+            &lt;form id="payment-form"&gt; <br>
+              &lt;h4&gt;Payment Method&lt;/h4&gt; <br>
+              &lt;fieldset id="payment-selector"&gt; <br>
+                &lt;input type="radio" id="mastercard" name="rad_btn" value="MCard"&gt; <br>
+                &lt;label for="mastercard"&gt;Mastercard&lt;/label&gt; <br>
+                &lt;input type="radio" id="visa" name="rad_btn" value="Visa"&gt; <br>
+                &lt;label for="visa"&gt;Visa&lt;/label&gt; <br>
+                &lt;input type="radio" id="amex" name="rad_btn" value="AmEx"&gt; <br>
+                &lt;label for="amex"&gt;American Express&lt;/label&gt; <br>
+              &lt;/fieldset&gt; <br>
+              &lt;fieldset id="card-info"&gt; <br>
+                &lt;input type="text" placeholder="Card Number"&gt; <br>
+                &lt;input type="text" placeholder="Expiration Date (MM/YY)"&gt; <br>
+                &lt;input type="text" placeholder="Security Code"&gt; <br>
+                &lt;input type="text" placeholder="Name On Card"&gt; <br>
+              &lt;/fieldset&gt; <br>
+              &lt;h4&gt;Billing address&lt;/h4&gt; <br>
+              &lt;fieldset id="billing"&gt; <br>
+                &lt;input type="text" placeholder="First Name"&gt; <br>
+                &lt;input type="text" placeholder="Last Name"&gt; <br>
+                &lt;input type="text" placeholder="Company"&gt; <br>
+                &lt;input type="text" placeholder="Adress"&gt; <br>
+                &lt;input type="text" placeholder="City"&gt; <br>
+                &lt;input type="text" placeholder="Province"&gt; <br>
+                &lt;input type="text" placeholder="Postal Code"&gt; <br>
+                &lt;input type="text" placeholder="Phone"&gt; <br>
+                &lt;input type="text" placeholder="Email"&gt; <br>
+              &lt;/fieldset&gt; <br>
+              &lt;input type="submit" name="payment" value="Pay Now"&gt; <br>
+            &lt;/form&gt;
+          </code>
         <h4>Rendered element:</h4>
           <h3>Payment</h3>
-          <fieldset id="payment-selector">
-            <input type="radio" id="mastercard" name="rad_btn" value="MCard">
-            <label for="mastercard">Mastercard</label> <br>
-            <input type="radio" id="visa" name="rad_btn" value="Visa">
-            <label for="visa">Visa</label>
-            <input type="radio" id="amex" name="rad_btn" value="AmEx">
-            <label for="amex">American Express</label>
-          </fieldset>
-          <fieldset id="card-info">
-            <input type="text" placeholder="Card Number">
-            <input type="text" placeholder="Expiration Date (MM/YY)">
-            <input type="text" placeholder="Security Code">
-            <input type="text" placeholder="Name On Card">
-          </fieldset>
-          <h3>Billing address</h3>
-          <fieldset id="billing">
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="text" placeholder="Company">
-            <input type="text" placeholder="Adress">
-            <input type="text" placeholder="City">
-            <input type="text" placeholder="Province">
-            <input type="text" placeholder="Postal Code">
-            <input type="text" placeholder="Phone">
-            <input type="text" placeholder="Email">
-          </fieldset>
-          <input type="submit" name="payment" value="Pay Now">
+          <form id="payment-form">
+            <h4>Payment Method</h4>
+            <fieldset id="payment-selector">
+              <input type="radio" id="mastercard" name="rad_btn" value="MCard">
+              <label for="mastercard">Mastercard</label>
+              <input type="radio" id="visa" name="rad_btn" value="Visa">
+              <label for="visa">Visa</label>
+              <input type="radio" id="amex" name="rad_btn" value="AmEx">
+              <label for="amex">American Express</label>
+            </fieldset>
+            <fieldset id="card-info">
+              <input type="text" placeholder="Card Number">
+              <input type="text" placeholder="Expiration Date (MM/YY)">
+              <input type="text" placeholder="Security Code">
+              <input type="text" placeholder="Name On Card">
+            </fieldset>
+            <h4>Billing address</h4>
+            <fieldset id="billing">
+              <input type="text" placeholder="First Name">
+              <input type="text" placeholder="Last Name">
+              <input type="text" placeholder="Company">
+              <input type="text" placeholder="Adress">
+              <input type="text" placeholder="City">
+              <input type="text" placeholder="Province">
+              <input type="text" placeholder="Postal Code">
+              <input type="text" placeholder="Phone">
+              <input type="text" placeholder="Email">
+            </fieldset>
+            <input type="submit" name="payment" value="Pay Now">
+          </form>
       </section>
 
       <section class="element">
         <h3>Checkout Cart</h3>
         <h4>Sample code:</h4>
+          <code>
+            &lt;h3&gt;Checkout&lt;/h3&gt; <br>
+            &lt;div id="cart-info"&gt; <br>
+              &lt;p class="product-name"&gt;Product&lt;/p&gt; <br>
+              &lt;p class="product-unit"&gt;Units&lt;/p&gt; <br>
+              &lt;p class="product-price"&gt;Price&lt;/p&gt; <br>
+            &lt;/div&gt; <br>
+            &lt;div id="product-list"&gt; <br>
+              &lt;p class="product-name"&gt;Tajin&lt;/p&gt; <br>
+              &lt;p class="product-unit"&gt;50&lt;/p&gt; <br>
+              &lt;p class="product-price"&gt;499.50&lt;/p&gt; <br>
+              &lt;p class="product-name"&gt;Postobon Manzana&lt;/p&gt; <br>
+              &lt;p class="product-unit"&gt;70&lt;/p&gt; <br>
+              &lt;p class="product-price"&gt;489.30&lt;/p&gt; <br>
+            &lt;/div&gt; <br>
+            &lt;div id="checkout-total"&gt; <br>
+              &lt;p class="charge-name"&gt;Subtotal&lt;/p&gt; <br>
+              &lt;p class="charge-amount"&gt;$988.80&lt;/p&gt; <br>
+              &lt;p class="charge-name"&gt;Taxes&lt;/p&gt; <br>
+              &lt;p class="charge-amount"&gt;$118.66&lt;/p&gt; <br>
+              &lt;p class="charge-name cart-total"&gt;Total&lt;/p&gt; <br>
+              &lt;p class="charge-amount cart-total"&gt;$1107.46&lt;/p&gt; <br>
+            &lt;/div&gt;
+          </code>
         <h4>Rendered element:</h4>
-        <h3>Checkout</h3>
-          <fieldset id="product-info">
-            <h4 class="product-name">Product</h4>
-            <h4 class="product-unit">Units</h4>
-            <h4 class="product-price">Price</h4>
-          </fieldset>
-        <fieldset id="product-list">
-          <p class="product-name">Tajin</p>
-          <p class="product-unit">50</p>
-          <p class="product-price">499.50</p>
-          <p class="product-name">Postobon Manzana</p>
-          <p class="product-unit">70</p>
-          <p class="product-price">489.30</p>
-        </fieldset>
-        <fieldset id="checkout-total">
-          <p class="charge-name">Subtotal</p>
-          <p class="charge-amount">$988.80</p>
-          <p class="charge-name">Shipping (Estimated)</p>
-          <p class="charge-amount">$xxxxx</p>
-          <p class="charge-name">Taxes</p>
-          <p class="charge-amount">$xxxxx</p>
-          <p class="charge-name cart-total">Total (Estimated)</p>
-          <p class="charge-amount cart-total">$xxxxxx</p>
-          <!--Learned that an element can have more than one class here: https://www.w3schools.com/html/html_classes.asp-->
-        </fieldset>
+          <h3>Checkout</h3>
+            <div id="cart-info">
+              <p class="product-name">Product</p>
+              <p class="product-unit">Units</p>
+              <p class="product-price">Price</p>
+            </div>
+            <div id="product-list">
+              <p class="product-name">Tajin</p>
+              <p class="product-unit">50</p>
+              <p class="product-price">499.50</p>
+              <p class="product-name">Postobon Manzana</p>
+              <p class="product-unit">70</p>
+              <p class="product-price">489.30</p>
+            </div>
+            <div id="checkout-total">
+              <p class="charge-name">Subtotal</p>
+              <p class="charge-amount">$988.80</p>
+              <p class="charge-name">Taxes</p>
+              <p class="charge-amount">$118.66</p>
+              <p class="charge-name cart-total">Total</p>
+              <p class="charge-amount cart-total">$1107.46</p>
+              <!--Learned that an element can have more than one class here: https://www.w3schools.com/html/html_classes.asp-->
+            </div>
       </section>
 
     </section>
