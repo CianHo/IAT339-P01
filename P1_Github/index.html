@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>P01 - Style Guide Template</title>
 
-    <!-- <link href="css/main.css" rel="stylesheet"> -->
+    <link href="css/main.css" rel="stylesheet">
 
   </head>
 
@@ -37,10 +37,10 @@
       <section class="element">
         <h3>In-text link</h3>
          <h4>Sample code:</h4>
-          <code>&lt;a href="url" class="inTextLink" &gt;link text&lt;/a&gt;</code>
+          <code>&lt;a href="url" class="intext-link" &gt;link text&lt;/a&gt;</code>
 
         <h4>Rendered element:</h4>
-          <p>Here is an example text with a <a class="inTextLink" href="https://www.w3schools.com/html/html_links.asp">link</a>.</p>
+          <p>Here is an example text with a <a class="intext-link" href="https://www.w3schools.com/html/html_links.asp">link</a>.</p>
         <!-- studied up on using anchors from here: https://www.w3schools.com/html/html_links.asp -->
       </section>
 
@@ -50,10 +50,10 @@
 
         <h3>Navigation Link</h3>
         <h4>Sample code:</h4>
-        <code>&lt;a href="#locationID" class="navLink"&gt;Link Text&lt;/a&gt;</code>
+        <code>&lt;a href="#locationID" class="button-nav"&gt;Link Text&lt;/a&gt;</code>
 
         <h4>Rendered element:</h4>
-        <a class="navButton" href="#interactive_elements">Sample Navigation Link</a>
+        <a class="button-nav" href="#interactive_elements">Sample Navigation Link</a>
 
         <!-- <h4>CSS selector:</h4>
         <p>.button-nav</p>
@@ -82,10 +82,10 @@
       <section class="element">
         <h3>Text Input Field with Label</h3>
         <h4>Sample code:</h4>
-          <code>&lt;form&gt;&lt;label for="inputName" name="inputName"&gt; label text &lt;input type="text" id="inputName"&gt; &lt;/label&gt;&lt;/form&gt;
+          <code>&lt;form class="text-input&gt;&lt;label for="inputName" name="inputName"&gt; label text &lt;input type="text" id="inputName"&gt; &lt;/label&gt;&lt;/form&gt;
              </code>
         <h4>Rendered element:</h4>
-          <form class="textInputInteractable"><label for="TextInputWLabel" class="textInputInteractableLabel">Text Input with Label <input class="textInputInteractableBox" type="text" id="TextInputWLabel" name="textInputWLabel" placeholder=" "/></label></form>
+          <form class="text-input"><label for="TextInputWLabel" class="text-input-label">Text Input with Label <input class="text-input-box" type="text" id="TextInputWLabel" name="textInputWLabel" placeholder=" "/></label></form>
           <!-- <input type="text" id="TextInputWLabel" name="textInputWLabel"/> -->
       </section>
 
@@ -113,9 +113,9 @@
       <section class="element">
         <h3>Image as a Link</h3>
         <h4>Sample code:</h4>
-          <code>&lt;a href="url" class="imageLink" &gt;&lt;img src="img source" &gt;&lt;/a&gt;</code>
+          <code>&lt;a href="url" class="image-link" &gt;&lt;img src="img source" &gt;&lt;/a&gt;</code>
         <h4>Rendered element:</h4>
-          <a class="imageLink" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img"><img src="img\nwnEye.png"></a>
+          <a class="image-link" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img"><img src="img\nwnEye.png"></a>
       <!-- had to remind myself about which attribute let me determine image source by looking at https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img -->
         </section>
 

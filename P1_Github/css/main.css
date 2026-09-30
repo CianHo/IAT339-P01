@@ -40,7 +40,6 @@ p {
   /* from lecture */
   width: 75%;
   /* highlighted to show width */
-  background-color: yellow;
 }
 
 nav a:hover,
@@ -75,19 +74,19 @@ code {
 }
 
 /* got this from lecture */
-.inTextLink:hover,
-.inTextLink:focus {
+.intext-link:hover,
+.intext-link:focus {
   background-color: red;
 }
 
 /* looked at https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/filter */
-.imageLink:hover,
-.imageLink:focus {
+.image-link:hover,
+.image-link:focus {
   filter: invert(100%);
 }
 
 /* from lecture, idea to put it all under one umbrella is from https://learn.shayhowe.com/html-css/building-forms/*/
-.textInputInteractable {
+.text-input {
   width: 20em;
   padding: 0.1em;
   background: grey;
@@ -97,10 +96,10 @@ code {
   background: red;
 } */
 
-.textInputInteractableBox:hover,
-.textInputInteractableBox:focus,
+.text-input-box:hover,
+.text-input-box:focus,
 /* got this trick from here: https://stackoverflow.com/questions/16952526/detect-if-an-input-has-text-in-it-using-css-on-a-page-i-am-visiting-and-do-no */
-.textInputInteractableBox:not(:placeholder-shown) {
+.text-input-box:not(:placeholder-shown) {
   background: blue;
 }
 
