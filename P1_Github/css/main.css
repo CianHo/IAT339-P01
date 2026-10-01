@@ -2,9 +2,29 @@
   STYLE GUIDE STYLING 
   Default styling for the style guide 
 */
+
+@font-face {
+  font-family: montserrat;
+  src: url("../font/Montserrat-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: qurova;
+  src: url("../font/QurovaDEMO-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: gidole;
+  src: url("../font/Gidole-Regular.ttf");
+  font-weight: thin;
+  font-style: normal;
+}
+
 body {
   /* from lecture */
-  font-family: "Times New Roman", Times, sans-serif;
+  font-family: "montserrat", "Times New Roman", Times, sans-serif;
   padding: 2rem;
 }
 
@@ -21,22 +41,8 @@ section {
   border-top-color: black;
 }
 
-h2 {
-  margin-top: 6rem;
-}
-
-h3 {
-  font-style: italic;
-  margin-top: 1rem;
-}
-
-h4 {
-  margin-bottom: 0.25rem;
-}
-
 p {
   margin-top: 0;
-
   /* from lecture */
   width: 75%;
   /* highlighted to show width */
@@ -62,7 +68,7 @@ code {
   display: inline-block;
   padding: 0.5rem;
   color: white;
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(240, 70, 78);
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -107,6 +113,41 @@ code {
   TEXT ELEMENTS -------------------
 */
 
+.qurova-text {
+  font-family: "qurova", "montserrat", "Times New Roman", Times, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "gidole", "montserrat", "Times New Roman", Times, sans-serif;
+}
+
+h2 {
+  margin-top: 6rem;
+}
+
+h3 {
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+h4 {
+  margin-bottom: 0.25rem;
+}
+
 /* 
   COMBINED ELEMENTS -------------------
 */
+.product-image {
+  max-width: 20%;
+}
+
+.nav-main {
+  color: white;
+  background-color: rgb(85, 229109);
+  display: flex;
+}
