@@ -95,18 +95,23 @@ code {
 .text-input {
   width: 20em;
   padding: 0.1em;
-  background: grey;
+  background: rgb(237, 237, 75);
+  border-radius: 8px;
 }
 
-/* .textInputInteractableLabel {
-  background: red;
-} */
+.text-input-box {
+  background: rgb(240, 70, 78);
+  color: white;
+  border-radius: 8px;
+}
 
 .text-input-box:hover,
 .text-input-box:focus,
 /* got this trick from here: https://stackoverflow.com/questions/16952526/detect-if-an-input-has-text-in-it-using-css-on-a-page-i-am-visiting-and-do-no */
 .text-input-box:not(:placeholder-shown) {
-  background: blue;
+  background: rgb(67, 72, 239);
+  color: white;
+  border-radius: 8px;
 }
 
 /* 
@@ -200,6 +205,12 @@ li {
 
 .charge-amount {
   align-self: self-end;
+}
+
+.cart-total {
+  background-color: rgb(237, 237, 75);
+  align-self: self-end;
+  width: 100%;
 }
 
 .product-name,
