@@ -280,6 +280,10 @@ li {
   font-family: gidole;
 }
 
+.product-name-img {
+  max-width: 10%;
+}
+
 .product-unit {
   border-left: 0;
   border-right: 0;
