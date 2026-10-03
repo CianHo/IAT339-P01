@@ -4,7 +4,7 @@
 */
 
 /* non-existent class for storing rgb values used later */
-.color-reference{
+.color-reference {
   color: rgb(85, 229, 109);
   color: rgb(237, 237, 75);
   color: rgb(240, 70, 78);
@@ -67,9 +67,6 @@ code {
   display: block;
 }
 
-label {
-}
-
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
@@ -96,36 +93,21 @@ label {
   background-color: red;
 }
 
-/*Styling for "submit" and "reset" taken from styling for "btn" from https://learn.shayhowe.com/html-css/building-forms/ */
-input[type="submit"] {
-  background: linear-gradient(#498F53, #234A28);
-  border: 0;
-  color: #fff;
-  cursor: pointer;
-  font-weight: bold;
-  padding: 8px 16px;
-}
-
-input[type="reset"] {
-  background: linear-gradient(#8F4949,#502929);
-  border: 0;
-  color: #fff;
-  cursor: pointer;
-  font-weight: bold;
-  padding: 8px 16px;
-}
-
 /* looked at https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/filter */
 .image-link:hover,
 .image-link:focus {
-  filter: invert(100%);
+  filter: drop-shadow(10px 10px 10px black);
 }
 
 /* from lecture, idea to put it all under one umbrella is from https://learn.shayhowe.com/html-css/building-forms/*/
 .text-input {
   width: 20em;
   padding: 0.1em;
-  background: linear-gradient(to bottom, rgb(85, 229, 109) 50%, rgb(237, 237, 75) 50% 100%);
+  background: linear-gradient(
+    to bottom,
+    rgb(85, 229, 109) 50%,
+    rgb(237, 237, 75) 50% 100%
+  );
   /* background: rgb(237, 237, 75); */
   border-radius: 8px;
 }
@@ -152,6 +134,7 @@ input[type="reset"] {
 .qurova-text {
   font-family: "qurova", "montserrat", "Times New Roman", Times, sans-serif;
 }
+/* class for elements that use gidole, applied seperately because gidole doesn't like numbers */
 
 h1,
 h2,
@@ -161,10 +144,11 @@ h5,
 h6 {
   font-family: "gidole", "montserrat", "Times New Roman", Times, sans-serif;
 }
+/* set headers to use gidole first */
 
-h1{
-  background-color:rgb(85, 229, 109);
-  text-decoration-line:underline;
+h1 {
+  background-color: rgb(85, 229, 109);
+  text-decoration-line: underline;
   text-decoration-color: rgb(237, 237, 75);
 }
 
@@ -228,27 +212,6 @@ li {
   max-width: 45%;
 }
 
-.payment-selector {
-  display: flex;
-  flex-direction: column;
-}
-
-.card-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.billing {
-  display: flex;
-  flex-direction: column;
-}
-
-.card-info-security,
-.billing-name,
-.billing-location {
-  display: flex;
-}
-
 #checkout-total {
   display: flex;
   flex-direction: column;
@@ -278,10 +241,11 @@ li {
   border-top: 0;
   margin: 0;
   font-family: gidole;
+  flex: 1;
 }
 
 .product-name-img {
-  max-width: 10%;
+  max-width: 100%;
 }
 
 .product-unit {
