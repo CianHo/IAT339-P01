@@ -243,6 +243,12 @@ li {
   flex-direction: column;
 }
 
+.card-info-security,
+.billing-name,
+.billing-location {
+  display: flex;
+}
+
 #checkout-total {
   display: flex;
   flex-direction: column;
