@@ -67,6 +67,7 @@ code {
   display: block;
 }
 
+
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
@@ -138,6 +139,12 @@ h4,
 h5,
 h6 {
   font-family: "gidole", "montserrat", "Times New Roman", Times, sans-serif;
+}
+
+h1{
+  background-color:rgb(85, 229, 109);
+  text-decoration-line:underline;
+  text-decoration-color: rgb(237, 237, 75);
 }
 
 /* h2 {
