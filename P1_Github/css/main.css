@@ -7,7 +7,7 @@
 .color-reference{
   color: rgb(85, 229, 109);
   color: rgb(237, 237, 75);
-  color: rgb(240, 70, 78)
+  color: rgb(240, 70, 78);
   color: rgb(67, 72, 239);
 }
 
@@ -92,6 +92,25 @@ code {
 .intext-link:hover,
 .intext-link:focus {
   background-color: red;
+}
+
+/*Styling for "submit" and "reset" taken from styling for "btn" from https://learn.shayhowe.com/html-css/building-forms/ */
+input[type="submit"] {
+  background: linear-gradient(#498F53, #234A28);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+input[type="reset"] {
+  background: linear-gradient(#8F4949,#502929);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 16px;
 }
 
 /* looked at https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/filter */
