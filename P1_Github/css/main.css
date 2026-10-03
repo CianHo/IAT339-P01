@@ -3,6 +3,14 @@
   Default styling for the style guide 
 */
 
+/* non-existent class for storing rgb values used later */
+.color-reference{
+  color: rgb(85, 229, 109);
+  color: rgb(237, 237, 75);
+  color: rgb(240, 70, 78)
+  color: rgb(67, 72, 239);
+}
+
 @font-face {
   font-family: montserrat;
   src: url("../font/Montserrat-VariableFont_wght.ttf");
@@ -95,14 +103,15 @@ code {
 .text-input {
   width: 20em;
   padding: 0.1em;
-  background: rgb(237, 237, 75);
+  background: linear-gradient(to bottom, rgb(85, 229, 109) 50%, rgb(237, 237, 75) 50% 100%);
+  /* background: rgb(237, 237, 75); */
   border-radius: 8px;
 }
 
 .text-input-box {
   background: rgb(240, 70, 78);
   color: white;
-  border-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .text-input-box:hover,
