@@ -67,6 +67,8 @@ code {
   display: block;
 }
 
+label {
+}
 
 /* 
   INTERACTIVE ELEMENTS -------------------
@@ -224,6 +226,21 @@ li {
 .product-listing {
   display: flex;
   max-width: 45%;
+}
+
+.payment-selector {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.billing {
+  display: flex;
+  flex-direction: column;
 }
 
 #checkout-total {
