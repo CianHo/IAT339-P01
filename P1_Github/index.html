@@ -252,7 +252,7 @@
                 &lt;input type="text" placeholder="First Name"&gt; <br>
                 &lt;input type="text" placeholder="Last Name"&gt; <br>
                 &lt;input type="text" placeholder="Company"&gt; <br>
-                &lt;input type="text" placeholder="Adress"&gt; <br>
+                &lt;input type="text" placeholder="Address"&gt; <br>
                 &lt;input type="text" placeholder="City"&gt; <br>
                 &lt;input type="text" placeholder="Province"&gt; <br>
                 &lt;input type="text" placeholder="Postal Code"&gt; <br>
@@ -276,19 +276,25 @@
             </fieldset>
             <fieldset id="card-info">
               <input type="text" placeholder="Card Number">
-              <input type="text" placeholder="Expiration Date (MM/YY)">
-              <input type="text" placeholder="Security Code">
+              <div class="card-info-security">
+                <input type="text" placeholder="Expiration Date (MM/YY)">
+                <input type="text" placeholder="Security Code">
+              </div>
               <input type="text" placeholder="Name On Card">
             </fieldset>
             <h4>Billing address</h4>
             <fieldset id="billing">
-              <input type="text" placeholder="First Name">
-              <input type="text" placeholder="Last Name">
+              <div class="billing-name">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+              </div>
               <input type="text" placeholder="Company">
-              <input type="text" placeholder="Adress">
-              <input type="text" placeholder="City">
-              <input type="text" placeholder="Province">
-              <input type="text" placeholder="Postal Code">
+              <input type="text" placeholder="Address">
+              <div class="billing-location">
+                <input type="text" placeholder="City">
+                <input type="text" placeholder="Province">
+                <input type="text" placeholder="Postal Code">
+              </div>
               <input type="text" placeholder="Phone">
               <input type="text" placeholder="Email">
             </fieldset>
@@ -332,12 +338,18 @@
             </div>
             <div id="product-list">
               <div class="product-listing">
-                <p class="product-name">Tajin</p>
+                <div class="product-name">
+                  <img class="product-name-img" src="img/tajin.jpg" alt="A bottle of Tajin brand seasoning">
+                  <p>Tajin</p>
+                </div>
                 <p class="product-unit">50</p>
                 <p class="product-price">499.50</p>
               </div>
               <div class="product-listing">
-                <p class="product-name">Postobon Manzana</p>
+                <div class="product-name">
+                  <img class="product-name-img" src="img/Manzana.jpg" alt="A bottle filled with a pink liquid">
+                  <p>Postobon Manzana</p>
+                </div>
                 <p class="product-unit">70</p>
                 <p class="product-price">489.30</p>
               </div>
