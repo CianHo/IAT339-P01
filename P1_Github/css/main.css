@@ -361,16 +361,8 @@ li {
   padding: 1em;
 }
 
-#payment-selector {
-  display: flex;
-  flex-direction: column;
-}
-
-#card-info {
-  display: flex;
-  flex-direction: column;
-}
-
+#payment-selector,
+#card-info,
 #billing {
   display: flex;
   flex-direction: column;
