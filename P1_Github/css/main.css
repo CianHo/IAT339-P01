@@ -34,12 +34,24 @@ body {
   /* from lecture */
   font-family: "montserrat", "Times New Roman", Times, sans-serif;
   padding: 2rem;
+  background: linear-gradient(
+    to right,
+    rgb(85, 229, 109) 5%,
+    rgb(255, 255, 255) 5% 100%
+  );
 }
 
 /* from lecture */
 section {
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+#spacer {
+  background-color: rgb(85, 229, 109);
+  padding-top: 3em;
+  position: relative;
+  top: -2.5em;
 }
 
 .element {
@@ -108,6 +120,7 @@ code {
     rgb(85, 229, 109) 50%,
     rgb(237, 237, 75) 50% 100%
   );
+
   /* background: rgb(237, 237, 75); */
   border-radius: 8px;
 }
@@ -143,6 +156,8 @@ h4,
 h5,
 h6 {
   font-family: "gidole", "montserrat", "Times New Roman", Times, sans-serif;
+  margin-left: 5%;
+  max-width: 50%;
 }
 /* set headers to use gidole first */
 
@@ -177,6 +192,11 @@ li {
   display: flex;
   justify-content: right;
   max-width: 45%;
+  margin-bottom: 5%;
+  position: relative;
+  top: -2.5em;
+  padding-left: 45%;
+  padding-right: 10%;
 }
 
 .nav-main-item {
@@ -194,7 +214,12 @@ li {
   background-color: rgb(67, 72, 239);
 }
 
+.card-container {
+  display: flex;
+}
+
 .product-card {
+  flex: 1;
   display: flex;
   flex-direction: column;
   max-width: 20%;
@@ -203,6 +228,8 @@ li {
   border-width: 0.5em;
   border-radius: 8px;
   background-color: rgb(201, 190, 128);
+  margin-left: 10%;
+  height: fit-content;
 }
 
 .product-image {
@@ -228,8 +255,7 @@ li {
 .product-card-caption {
   justify-self: right;
   background-color: rgb(237, 237, 75);
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-radius: 8px;
   padding: 0.3em;
 }
 
