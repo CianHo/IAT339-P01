@@ -320,8 +320,13 @@ li {
   border-color: rgb(85, 229, 109);
 }
 
+.product-name {
+  display: flex;
+  flex-direction: row;
+}
+
 .product-name-img {
-  max-width: 100%;
+  max-width: 25%;
 }
 
 .product-name-label {
