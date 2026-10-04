@@ -292,10 +292,15 @@ li {
 }
 
 .charge-name {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
 }
 
 .charge-amount {
-  align-self: self-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
 }
 
 .cart-total {
