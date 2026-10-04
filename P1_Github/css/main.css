@@ -282,7 +282,7 @@ li {
 
 #checkout-total {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   border-style: solid;
   width: fit-content;
   padding-right: 3%;
