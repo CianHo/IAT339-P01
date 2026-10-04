@@ -360,3 +360,18 @@ li {
   border-color: rgb(85, 229, 109);
   padding: 1em;
 }
+
+#payment-selector {
+  display: flex;
+  flex-direction: column;
+}
+
+#card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+#billing {
+  display: flex;
+  flex-direction: column;
+}
