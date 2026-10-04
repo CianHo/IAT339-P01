@@ -380,6 +380,7 @@ li {
 }
 
 .card-info-security,
+.billing-name,
 .billing-location {
   display: flex;
   flex-direction: row;
@@ -387,6 +388,7 @@ li {
 }
 
 .card-info-security input,
+.billing-name input,
 .billing-location input {
   width: 50%;
 }
