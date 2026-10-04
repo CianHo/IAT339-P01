@@ -359,6 +359,7 @@ li {
   border-width: 12px;
   border-color: rgb(85, 229, 109);
   padding: 1em;
+  max-width: 31rem;
 }
 
 #payment-selector,
