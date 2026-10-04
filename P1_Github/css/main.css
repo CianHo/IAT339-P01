@@ -171,9 +171,6 @@ li {
 /* 
   COMBINED ELEMENTS -------------------
 */
-.product-image {
-  max-width: 20%;
-}
 
 .nav-main {
   background-color: rgb(85, 229, 109);
@@ -195,6 +192,51 @@ li {
 .nav-main-item:hover,
 .nav-main-item:focus {
   background-color: rgb(67, 72, 239);
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+  border-style: solid;
+  border-color: rgb(85, 229, 109);
+  border-width: 0.5em;
+  border-radius: 8px;
+  background-color: rgb(201, 190, 128);
+}
+
+.product-image {
+  max-width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 0;
+}
+.product-card-name,
+.product-card-caption {
+  margin: 0;
+}
+
+.product-card-name {
+  background-color: rgb(85, 229, 109);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: larger;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+.product-card-caption {
+  justify-self: right;
+  background-color: rgb(237, 237, 75);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 0.3em;
+}
+
+.product-card-link {
+  align-self: center;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
 }
 
 #cart-info {
@@ -219,6 +261,8 @@ li {
   width: fit-content;
   padding-right: 3%;
   margin-top: 2%;
+  border-radius: 8px;
+  border-color: rgb(85, 229, 109);
 }
 
 .charge-name {
@@ -276,4 +320,12 @@ li {
 
 .right-box {
   border-top-right-radius: 8px;
+}
+
+#payment-form {
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 12px;
+  border-color: rgb(85, 229, 109);
+  padding: 1em;
 }
