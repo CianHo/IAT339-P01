@@ -242,10 +242,16 @@ li {
   margin: 0;
   font-family: gidole;
   flex: 1;
+  border-color: rgb(85, 229, 109);
 }
 
 .product-name-img {
   max-width: 100%;
+}
+
+.product-name-label {
+  font-family: "gidole", "montserrat", "Times New Roman", Times, sans-serif;
+  font-size: x-large;
 }
 
 .product-unit {
@@ -256,9 +262,18 @@ li {
 .cart-label {
   border-style: solid;
   margin: 0;
+  border-color: rgb(85, 229, 109);
 }
 
 .middle-box {
   border-left: 0;
   border-right: 0;
+}
+
+.left-box {
+  border-top-left-radius: 8px;
+}
+
+.right-box {
+  border-top-right-radius: 8px;
 }
