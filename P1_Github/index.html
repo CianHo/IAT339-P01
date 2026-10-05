@@ -50,7 +50,7 @@
 
         <h3>Navigation Link</h3>
         <h4>Sample code:</h4>
-        <code>&lt;a href="#locationID" class="button-nav"&gt;Link Text&lt;/a&gt;</code>
+        <code>&lt;a class="button-nav qurova-text" href="#locationID" class="button-nav"&gt;Link Text&lt;/a&gt;</code>
 
         <h4>Rendered element:</h4>
         <a class="button-nav qurova-text" href="#interactive_elements">Sample Navigation Link</a>
@@ -71,8 +71,8 @@
       <section class="element">
         <h3>Submit/Reset Buttons</h3>
         <h4>Sample code: </h4>
-          <code>&lt;input type="submit" name="submitButtonName" value="buttonText" &gt;</code>
-          <code>&lt;input type="reset" name="resetButtonName" value="buttonText" &gt;</code>
+          <code>&lt;input type="submit" class="qurova-text" name="submitButtonName" value="buttonText" &gt;</code>
+          <code>&lt;input type="reset" class="qurova-text" name="resetButtonName" value="buttonText" &gt;</code>
         <h4>Rendered element:</h4>
           <input type="submit" class="qurova-text" name="submitButtonExample" value="Sample Submit Button">
           <input type="reset" class="qurova-text" name="submitButtonExample" value="Sample Reset Button">
@@ -82,10 +82,10 @@
       <section class="element">
         <h3>Text Input Field with Label</h3>
         <h4>Sample code:</h4>
-          <code>&lt;form class="text-input&gt;&lt;label for="inputName" name="inputName"&gt; label text &lt;input type="text" id="inputName"&gt; &lt;/label&gt;&lt;/form&gt;
+          <code>&lt;form class="text-input&gt;&lt;label for="inputName" class="text-input-label"&gt; label text &lt;input class="text-input-box" type="text" id="inputId" name="inputName" placeholder=" "&gt; &lt;/label&gt;&lt;/form&gt;
              </code>
         <h4>Rendered element:</h4>
-          <form class="text-input"><label for="TextInputWLabel" class="text-input-label">Text Input with Label <input class="text-input-box" type="text" id="TextInputWLabel" name="textInputWLabel" placeholder=" "/></label></form>
+          <form class="text-input"><label for="TextInputWLabel" class="text-input-label">Text Input with Label <input class="text-input-box" type="text" id="TextInputWLabel" name="textInputWLabel" placeholder=" "></label></form>
           <!-- <input type="text" id="TextInputWLabel" name="textInputWLabel"/> -->
       </section>
 
@@ -94,19 +94,19 @@
         <h3>Radio Button with Label</h3>
         <h4>Sample code:</h4>
         <code>
-          &lt;input type="radio" id="opt1" name="rad_btn" value="Option1"&gt; <br>
-          &lt;label for="opt1"&gt;Option 1&lt;/label&gt; <br>
-          &lt;input type="radio" id="opt2" name="rad_btn" value="Option2"&gt; <br>
-          &lt;label for="opt2"&gt;Option 2&lt;/label&gt; <br>
+          &lt;div class="radio-example"&gt; <br>
+          &lt;label&gt; &lt;input type="radio" name="rad_btn" value="Option1"&gt; Option 1 &lt;/label&gt; <br>
+          &lt;label&gt; &lt;input type="radio" name="rad_btn" value="Option2"&gt; Option 2 &lt;/label&gt; <br>
+          &lt;div&gt;
         </code>
 
         <!-- Learned how to implement feature from: https://www.w3schools.com/tags/att_input_type_radio.asp -->
         <h4>Rendered element:</h4>
         <p>Radio Button Example</p>
-          <input type="radio" id="opt1" name="rad_btn" value="Option1">
-          <label for="opt1">Option 1</label> <br>
-          <input type="radio" id="opt2" name="rad_btn" value="Option2">
-          <label for="opt2">Option 2</label>
+         <div class="radio-example"> 
+          <label> <input type="radio" name="rad_btn" value="Option1"> Option 1 </label>
+          <label> <input type="radio" name="rad_btn" value="Option2"> Option 2 </label>
+        </div>
       </section>
 
 
