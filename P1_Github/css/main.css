@@ -291,6 +291,7 @@ li {
   max-width: 45%;
 }
 
+/* Read about the text-align property from here: https://www.w3schools.com/cssref/pr_text_text-align.php  */
 #product-list p {
   text-align: center;
 }
