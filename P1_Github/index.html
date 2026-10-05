@@ -236,28 +236,40 @@
             &lt;form id="payment-form"&gt; <br>
               &lt;h4&gt;Payment Method&lt;/h4&gt; <br>
               &lt;fieldset id="payment-selector"&gt; <br>
-                &lt;input type="radio" id="mastercard" name="rad_btn" value="MCard"&gt; <br>
-                &lt;label for="mastercard"&gt;Mastercard&lt;/label&gt; <br>
-                &lt;input type="radio" id="visa" name="rad_btn" value="Visa"&gt; <br>
-                &lt;label for="visa"&gt;Visa&lt;/label&gt; <br>
-                &lt;input type="radio" id="amex" name="rad_btn" value="AmEx"&gt; <br>
-                &lt;label for="amex"&gt;American Express&lt;/label&gt; <br>
+                &lt;div&gt; <br>
+                  &lt;input type="radio" id="mastercard" name="rad_btn" value="MCard"&gt; <br>
+                  &lt;label for="mastercard"&gt;Mastercard&lt;/label&gt; <br>
+                &lt;/div&gt; <br>
+                &lt;div&gt; <br>
+                  &lt;input type="radio" id="visa" name="rad_btn" value="Visa"&gt; <br>
+                  &lt;label for="visa"&gt;Visa&lt;/label&gt; <br>
+                &lt;/div&gt; <br>
+                &lt;div&gt; <br>
+                  &lt;input type="radio" id="amex" name="rad_btn" value="AmEx"&gt; <br>
+                  &lt;label for="amex"&gt;American Express&lt;/label&gt; <br>
+                &lt;/div&gt; <br>
               &lt;/fieldset&gt; <br>
               &lt;fieldset id="card-info"&gt; <br>
                 &lt;input type="text" placeholder="Card Number"&gt; <br>
-                &lt;input type="text" placeholder="Expiration Date (MM/YY)"&gt; <br>
-                &lt;input type="text" placeholder="Security Code"&gt; <br>
+                &lt;div class="card-info-security"&gt; <br>
+                  &lt;input type="text" placeholder="Expiration Date (MM/YY)"&gt; <br>
+                  &lt;input type="text" placeholder="Security Code"&gt; <br>
+                &lt;div&gt; <br>
                 &lt;input type="text" placeholder="Name On Card"&gt; <br>
               &lt;/fieldset&gt; <br>
               &lt;h4&gt;Billing address&lt;/h4&gt; <br>
               &lt;fieldset id="billing"&gt; <br>
-                &lt;input type="text" placeholder="First Name"&gt; <br>
-                &lt;input type="text" placeholder="Last Name"&gt; <br>
+                &lt;div class="billing-name"&gt; <br>
+                  &lt;input type="text" placeholder="First Name"&gt; <br>
+                  &lt;input type="text" placeholder="Last Name"&gt; <br>
+                &lt;/div&gt; <br>
                 &lt;input type="text" placeholder="Company"&gt; <br>
                 &lt;input type="text" placeholder="Address"&gt; <br>
-                &lt;input type="text" placeholder="City"&gt; <br>
-                &lt;input type="text" placeholder="Province"&gt; <br>
-                &lt;input type="text" placeholder="Postal Code"&gt; <br>
+                &lt;div class="billing-location"&gt; <br>
+                  &lt;input type="text" placeholder="City"&gt; <br>
+                  &lt;input type="text" placeholder="Province"&gt; <br>
+                  &lt;input type="text" placeholder="Postal Code"&gt; <br>
+                &lt;/div&gt; <br>
                 &lt;input type="text" placeholder="Phone"&gt; <br>
                 &lt;input type="text" placeholder="Email"&gt; <br>
               &lt;/fieldset&gt; <br>
