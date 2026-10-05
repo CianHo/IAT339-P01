@@ -161,6 +161,11 @@ input[type="reset"] {
   border-radius: 8px;
 }
 
+.radio-example {
+  display: flex;
+  flex-direction: column;
+}
+
 /* 
   TEXT ELEMENTS -------------------
 */
