@@ -280,6 +280,12 @@ li {
   padding: 0.3em;
 }
 
+.product-card p {
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
 .product-card-link {
   align-self: center;
   padding-top: 0.3em;
