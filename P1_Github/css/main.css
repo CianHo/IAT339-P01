@@ -182,7 +182,7 @@ h4,
 h5,
 h6 {
   font-family: "gidole", "montserrat", "Times New Roman", Times, sans-serif;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   max-width: 50%;
 }
 /* set headers to use gidole first */
