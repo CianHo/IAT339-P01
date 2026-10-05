@@ -270,10 +270,9 @@ li {
   max-width: 45%;
 }
 
-/* #product-list {
-  display: flex;
-  width: 45%;
-} */
+#product-list p {
+  text-align: center;
+}
 
 .product-listing {
   display: flex;
