@@ -111,6 +111,27 @@ code {
   filter: drop-shadow(10px 10px 10px black);
 }
 
+/*Styling for "submit" and "reset" taken from styling for "btn" from https://learn.shayhowe.com/html-css/building-forms/ */
+input[type="submit"] {
+  background: #498f53;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+input[type="reset"] {
+  background: red;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
 /* from lecture, idea to put it all under one umbrella is from https://learn.shayhowe.com/html-css/building-forms/*/
 .text-input {
   width: 20em;
