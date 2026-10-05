@@ -113,7 +113,7 @@
       <section class="element">
         <h3>Image as a Link</h3>
         <h4>Sample code:</h4>
-          <code>&lt;a href="url" class="image-link" &gt;&lt;img src="img source" &gt;&lt;/a&gt;</code>
+          <code>&lt;a class="image-link" href="url" class="image-link" &gt;&lt;img src="img source" &gt;&lt;/a&gt;</code>
         <h4>Rendered element:</h4>
           <a class="image-link" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img"><img src="img\nwnEye.png"></a>
       <!-- had to remind myself about which attribute let me determine image source by looking at https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img -->
@@ -182,7 +182,7 @@
         <h3>Main Navigation</h3>
         <h4>Sample code:</h4>
           <code>
-            &lt;nav class="nav-main"&gt; <br>
+            &lt;nav class="nav-main qurova-text"&gt; <br>
               &lt;a href="#home" class="nav-main-item"&gt;Home&lt;/a&gt; <br>
               &lt;a href="#products" class="nav-main-item"&gt;Products&lt;/a&gt; <br>
               &lt;a href="#services" class="nav-main-item"&gt;Services&lt;/a&gt; <br>
@@ -205,13 +205,14 @@
         <h3>Product/Service Listing</h3>
         <h4>Sample code:</h4>
           <code>
-            &lt;div id="product-listing"&gt; <br>
+            &lt;div class="product-card"&gt; <br>
               &lt;figure&gt; <br>
-                &lt;img src="img/tajin.jpg" alt="A bottle of Tajin brand seasoning"&gt; <br>
-                &lt;figcaption&gt;$9.99 per Unit&lt;/figcaption&gt; <br>
+                &lt;img class="product-image" src="img/tajin.jpg" alt="A bottle of Tajin brand seasoning"&gt; <br>
+                &lt;h4 class="product-card-name"&gt;Tajin&lt;/h4&gt; <br>
+                &lt;figcaption class="product-card-caption"&gt;$9.99 per Unit&lt;/figcaption&gt; <br>
               &lt;/figure&gt; <br>
-              &lt;h4&gt;Tajin&lt;/h4&gt; <br>
-              &lt;a href="#more-info" target="_self"&gt;More Info&lt;/a&gt; <br>
+              &lt;p&gt;Classic seasoning blend, ideal for adding a savoury-tangy flavour to your dishes&lt;/p&gt; <br>
+              &lt;a class="nav-main-item product-card-link" href="#more-info" target="_self"&gt;More Info&lt;/a&gt; <br>
             &lt;/div&gt;
           </code>
         <h4>Rendered element:</h4>
