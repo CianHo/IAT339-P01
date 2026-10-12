@@ -266,6 +266,11 @@ li {
 .sidebar-content {
   margin-left: 8%;
   margin-bottom: 0.2em;
+  color: rgb(240, 70, 78);
+}
+.sidebar-content:hover,
+.sidebar-content:focus {
+  color: rgb(67, 72, 239);
 }
 
 .card-container {
