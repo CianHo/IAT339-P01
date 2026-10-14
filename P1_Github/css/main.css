@@ -166,7 +166,7 @@ input[type="reset"] {
   align-self: flex-end;
 }
 
-.radio-example {
+.radio-buttons {
   display: flex;
   flex-direction: column;
 }
