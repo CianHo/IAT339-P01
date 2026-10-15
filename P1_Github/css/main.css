@@ -259,14 +259,14 @@ li {
 
 .checkout-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .cart-and-total-container {
   display: flex;
   flex-direction: column;
   margin-right: 0;
-  background: red;
+  /* background: red; */
   width: fit-content;
 }
 
@@ -358,8 +358,8 @@ li {
 #cart-info {
   display: flex;
   max-width: 45%;
-  width: 56em;
-  align-self: end;
+  /* width: 56em; */
+  /* align-self: end; */
 }
 
 /* Read about the text-align property from here: https://www.w3schools.com/cssref/pr_text_text-align.php  */
@@ -370,7 +370,7 @@ li {
 .product-listing {
   display: flex;
   max-width: 45%;
-  justify-self: end;
+  /* justify-self: end; */
 }
 
 #checkout-total {
@@ -382,7 +382,7 @@ li {
   margin-top: 2%;
   border-radius: 8px;
   border-color: rgb(85, 229, 109);
-  align-self: end;
+  /* align-self: end; */
 }
 
 .charge-name {
@@ -459,6 +459,8 @@ li {
   border-color: rgb(85, 229, 109);
   padding: 1em;
   max-width: 31rem;
+  margin-top: 1em;
+  /* margin-right: 45%; */
 }
 
 #payment-selector,
