@@ -36,11 +36,12 @@
 
       <section class="element">
         <h3>In-text link</h3>
-         <h4>Sample code:</h4>
-          <code>&lt;a href="url" class="intext-link" &gt;link text&lt;/a&gt;</code>
 
         <h4>CSS selector:</h4>
-        <code>.intext-link</code>
+          <code>.intext-link</code>
+        
+        <h4>Sample code:</h4>
+          <code>&lt;a href="url" class="intext-link" &gt;link text&lt;/a&gt;</code>
 
         <h4>Rendered element:</h4>
           <p>Here is an example text with a <a class="intext-link qurova-text" href="https://www.w3schools.com/html/html_links.asp">link</a>.</p>
@@ -52,11 +53,13 @@
       <section class="element">
 
         <h3>Navigation Link</h3>
+  
+        <h4>CSS selector:</h4>
+          <code>.button-nav</code>
+        
         <h4>Sample code:</h4>
-        <code>&lt;a class="button-nav qurova-text" href="#locationID" class="button-nav"&gt;Link Text&lt;/a&gt;</code>
+          <code>&lt;a class="button-nav qurova-text" href="#locationID" class="button-nav"&gt;Link Text&lt;/a&gt;</code>
 
-<h4>CSS selector:</h4>
-        <code>.button-nav</code>
 
         <h4>Rendered element:</h4>
         <a class="button-nav qurova-text" href="#interactive_elements">Sample Navigation Link</a>
@@ -76,6 +79,11 @@
       <!-- assembled with help from https://learn.shayhowe.com/html-css/building-forms/ -->
       <section class="element">
         <h3>Submit/Reset Buttons</h3>
+
+        <h4>CSS selector:</h4>
+          <code>input[type="submit"]</code>
+          <code>input[type="reset"]</code>
+        
         <h4>Sample code: </h4>
           <code>&lt;input type="submit" class="qurova-text" name="submitButtonName" value="buttonText" &gt;</code>
           <code>&lt;input type="reset" class="qurova-text" name="resetButtonName" value="buttonText" &gt;</code>
@@ -88,11 +96,14 @@
       <!-- Reformatted to wrap the label around the input per: https://learn.shayhowe.com/html-css/building-forms/ -->
       <section class="element">
         <h3>Text Input Field with Label</h3>
+
+        <h4>CSS selector:</h4>
+          <code>.text-input</code>
+        
         <h4>Sample code:</h4>
           <code>&lt;form class="text-input&gt;&lt;label for="inputName" class="text-input-label"&gt; label text &lt;input class="text-input-box" type="text" id="inputId" name="inputName" placeholder=" "&gt; &lt;/label&gt;&lt;/form&gt;
              </code>
-             <h4>CSS selector:</h4>
-        <code>.text-input</code>
+
         <h4>Rendered element:</h4>
           <form class="text-input"><label for="TextInputWLabel" class="text-input-label">Text Input with Label <input class="text-input-box" type="text" id="TextInputWLabel" name="textInputWLabel" placeholder=" "></label></form>
           <!-- <input type="text" id="TextInputWLabel" name="textInputWLabel"/> -->
@@ -101,16 +112,18 @@
 
       <section class="element">
         <h3>Radio Button with Label</h3>
-        <h4>Sample code:</h4>
-        <code>
-          &lt;div class="radio-buttons"&gt; <br>
-          &lt;label&gt; &lt;input type="radio" name="rad_btn" value="Option1"&gt; Option 1 &lt;/label&gt; <br>
-          &lt;label&gt; &lt;input type="radio" name="rad_btn" value="Option2"&gt; Option 2 &lt;/label&gt; <br>
-          &lt;div&gt;
-        </code>
-        <h4>CSS selector:</h4>
-        <code>.radio-buttons</code>
 
+        <h4>CSS selector:</h4>
+          <code>.radio-buttons</code>
+        
+        <h4>Sample code:</h4>
+          <code>
+            &lt;div class="radio-buttons"&gt; <br>
+            &lt;label&gt; &lt;input type="radio" name="rad_btn" value="Option1"&gt; Option 1 &lt;/label&gt; <br>
+            &lt;label&gt; &lt;input type="radio" name="rad_btn" value="Option2"&gt; Option 2 &lt;/label&gt; <br>
+            &lt;div&gt;
+          </code>
+        
         <!-- Learned how to implement feature from: https://www.w3schools.com/tags/att_input_type_radio.asp -->
         <h4>Rendered element:</h4>
         <p>Radio Button Example</p>
@@ -123,15 +136,17 @@
 
       <section class="element">
         <h3>Image as a Link</h3>
+        
+        <h4>CSS selector:</h4>
+          <code>.image-link</code>
+        
         <h4>Sample code:</h4>
           <code>&lt;a class="image-link" href="url" class="image-link" &gt;&lt;img src="img source" &gt;&lt;/a&gt;</code>
-          <h4>CSS selector:</h4>
-        <code>.image-link</code>
+
         <h4>Rendered element:</h4>
           <a class="image-link" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img"><img src="img\nwnEye.png"></a>
       <!-- had to remind myself about which attribute let me determine image source by looking at https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img -->
         </section>
-
 
     </section>
     <!-- // INTERACTIVE ELEMENTS SECTION -->
@@ -144,6 +159,13 @@
 
       <section class="element">
         <h3>Headings</h3>
+
+        <h4>CSS selector:</h4>
+          <code>h1</code>
+          <code>h2</code>
+          <code>h3</code>
+          <code>h4</code>
+        
         <h4>Sample code:</h4>
           <code>&lt; h1 &gt;Header 1&lt; /h1 &gt;&lt; h2 &gt;Header 2&lt; /h2 &gt;&lt; h3 &gt;Header 3&lt; h3 &gt;&lt; h4 &gt;Header 4&lt; h4 &gt;</code>
 
@@ -156,6 +178,10 @@
 
       <section class="element">
         <h3>Paragraphs</h3>
+
+        <h4>CSS selector:</h4>
+          <code>p</code>
+        
         <h4>Sample code:</h4>
           <code>&lt;p&gt;paragraph text&lt;/p&gt;</code>
 
@@ -165,6 +191,11 @@
 
       <section class="element">
         <h3>Numbered Lists</h3>
+        
+          <h4>CSS selector:</h4>
+            <code>ol</code>
+            <code>li</code>
+        
         <h4>Sample code:</h4>
           <code>&lt;ol&gt; <br>
                   &lt;li&gt;Item One&lt;/li&gt; <br>
@@ -193,6 +224,11 @@
 
       <section class="element">
         <h3>Main Navigation</h3>
+
+        <h4>CSS selector:</h4>
+          <code>.nav-main</code>
+          <code>.nav-main-item, .nav-main-item:hover, .nav-main-time:focus</code>
+        
         <h4>Sample code:</h4>
           <code>
             &lt;nav class="nav-main qurova-text"&gt; <br>
@@ -203,8 +239,7 @@
               &lt;a href="#contact" class="nav-main-item"&gt;Contact Us&lt;/a&gt; <br>
             &lt;/nav&gt;
           </code>
-          <h4>CSS selector:</h4>
-        <code>.nav-main</code>
+
         <h4>Rendered element:</h4>
           <nav class="nav-main qurova-text">
               <a href="#home" class="nav-main-item">Home</a>
@@ -218,6 +253,10 @@
 
       <section class="element">
         <h3>Product/Service Listing</h3>
+
+        <h4>CSS selector:</h4>
+          <code>.product-card</code>
+        
         <h4>Sample code:</h4>
           <code>
             &lt;div class="product-card"&gt; <br>
@@ -230,8 +269,7 @@
               &lt;a class="nav-main-item product-card-link" href="#more-info" target="_self"&gt;More Info&lt;/a&gt; <br>
             &lt;/div&gt;
           </code>
-          <h4>CSS selector:</h4>
-        <code>.product-card</code>
+
         <h4>Rendered element:</h4>
           <div class="product-card">
             <figure>
@@ -249,6 +287,10 @@
 
       <section class="element">
         <h3>Payment Form</h3>
+
+        <h4>CSS selector:</h4>
+          <code>#payment-form</code>
+        
         <h4>Sample code:</h4>
           <code>
             &lt;h3&gt;Payment&lt;/h3&gt; <br>
@@ -295,8 +337,7 @@
               &lt;input type="submit" name="payment" value="Pay Now"&gt; <br>
             &lt;/form&gt;
           </code>
-          <h4>CSS selector:</h4>
-        <code>#payment-form</code>
+
         <h4>Rendered element:</h4>
           <h3>Payment</h3>
           <form id="payment-form">
@@ -345,6 +386,10 @@
 
       <section class="element">
         <h3>Checkout Cart</h3>
+
+        <h4>CSS selector:</h4>
+          <code>.cart-and-total-container</code>
+        
         <h4>Sample code:</h4>
           <code>
             &lt;h3&gt;Checkout&lt;/h3&gt; <br>
@@ -387,10 +432,6 @@
             &lt;/div&gt;<br>
           </code>
 
-          <h4>CSS selector:</h4>
-        <code>
-          .cart-and-total-container
-        </code>
         <h4>Rendered element:</h4>
           <h3>Checkout</h3>
           <div class="cart-and-total-container">
@@ -430,7 +471,7 @@
               </div>
               <!--Learned that an element can have more than one class here: https://www.w3schools.com/html/html_classes.asp-->
             </div>
-            </div>
+          </div>
       </section>
 
     </section>
