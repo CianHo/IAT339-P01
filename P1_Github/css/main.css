@@ -234,6 +234,7 @@ li {
   padding-left: 45%;
   padding-right: 10%;
   padding-top: 3em;
+  border-bottom-right-radius: 8px;
 }
 
 .nav-main-item {
@@ -250,6 +251,42 @@ li {
 .nav-main-item:hover,
 .nav-main-item:focus {
   background-color: rgb(67, 72, 239);
+}
+
+.logo {
+  background-color: white;
+}
+.logo-image {
+  width: 30em;
+}
+
+@media (min-width: 1400px) {
+  .logo {
+    position: absolute;
+    left: 5%;
+  }
+  .nav-main {
+    margin-bottom: 3%;
+  }
+}
+@media (max-width: 1399px) {
+  .nav-main {
+    flex-direction: column;
+    align-content: left;
+    padding-left: 15%;
+    width: 100%;
+  }
+  .nav-main-item {
+    border-radius: 8px;
+    margin-bottom: 1em;
+  }
+  .search-bar {
+    padding-left: 15%;
+    align-self: flex-start;
+  }
+  .logo-image {
+    width: 45%;
+  }
 }
 
 .page-container {
@@ -299,9 +336,9 @@ li {
   /* max-width: 20%; */
   border-style: solid;
   border-color: rgb(85, 229, 109);
-  border-width: 0.5em;
+  border-width: 0.1em;
   border-radius: 8px;
-  background-color: rgb(201, 190, 128);
+  /* background-color: rgb(201, 190, 128); */
   /* margin-left: 10%; */
   margin: 1em;
   height: fit-content;
@@ -346,7 +383,13 @@ li {
 .product-card p {
   text-align: center;
   width: 100%;
-  color: white;
+  color: black;
+  text-decoration: none;
+}
+
+/* removes underline from anchors, might cause problems later */
+a {
+  text-decoration: none;
 }
 
 .product-card-link {
