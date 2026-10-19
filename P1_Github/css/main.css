@@ -73,6 +73,10 @@ nav a:focus {
   text-decoration: none;
 }
 
+.nav-styleguide a {
+  margin-left: 1rem;
+}
+
 code {
   background-color: #eee;
   padding: 0.5rem;
