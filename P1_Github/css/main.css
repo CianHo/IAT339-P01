@@ -91,6 +91,7 @@ code {
   padding: 0.5rem;
   color: white;
   background-color: rgb(240, 70, 78);
+  border-radius: 8px 8px 0 0;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -245,7 +246,6 @@ li {
   background-color: rgb(240, 70, 78);
   padding-left: 0.5%;
   padding-right: 0.5%;
-  border-radius: 8px 8px 0 0;
   margin-left: 1%;
   margin-right: 1%;
   padding: 0.3em;
