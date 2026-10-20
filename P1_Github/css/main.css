@@ -341,6 +341,7 @@ li {
   display: flex;
   flex-direction: column;
   width: 20em;
+
   /* max-width: 20%; */
   border-style: solid;
   border-color: rgb(85, 229, 109);
@@ -349,7 +350,8 @@ li {
   /* background-color: rgb(201, 190, 128); */
   /* margin-left: 10%; */
   margin: 1em;
-  height: fit-content;
+  min-height: fit-content;
+  /* height: 32em; */
 }
 
 .product-image {
@@ -404,6 +406,8 @@ a {
   align-self: center;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
+  /* big thanks to https://stackoverflow.com/questions/31000885/align-an-element-to-bottom-with-flexbox */
+  margin-top: auto;
 }
 
 #cart-info {
