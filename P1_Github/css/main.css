@@ -34,11 +34,6 @@ body {
   /* from lecture */
   font-family: "montserrat", "Times New Roman", Times, sans-serif;
 
-  /* background: linear-gradient(
-    to right,
-    rgb(85, 229, 109) 5%,
-    rgb(255, 255, 255) 5% 100%
-  ); */
 }
 
 /* from lecture */
@@ -146,6 +141,7 @@ input[type="reset"] {
   background: white;
   color: black;
   border-radius: 8px;
+  border-style: solid;
 }
 
 .text-input-box:hover,
