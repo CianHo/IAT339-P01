@@ -72,11 +72,9 @@ nav a:hover,
 nav a:focus {
   text-decoration: none;
 }
-
 .nav-styleguide a {
   margin-left: 1rem;
 }
-
 code {
   background-color: #eee;
   padding: 0.5rem;
@@ -151,8 +149,8 @@ input[type="reset"] {
 }
 
 .text-input-box {
-  background: rgb(240, 70, 78);
-  color: white;
+  background: white;
+  color: black;
   border-radius: 8px;
 }
 
@@ -260,6 +258,12 @@ li {
 .logo {
   background-color: white;
 }
+
+.logo:hover,
+.logo:focus {
+  background-color: white;
+}
+
 .logo-image {
   width: 30em;
 }
