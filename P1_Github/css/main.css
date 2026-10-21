@@ -328,7 +328,6 @@ li {
   display: flex;
   flex-direction: column;
   margin-right: 0;
-  /* background: red; */
   width: fit-content;
 }
 
@@ -433,20 +432,16 @@ a {
 
 #cart-info {
   display: flex;
-  max-width: 45%;
-  /* width: 56em; */
-  /* align-self: end; */
 }
 
 /* Read about the text-align property from here: https://www.w3schools.com/cssref/pr_text_text-align.php  */
 #product-list p {
   text-align: center;
+  max-width: 45%;
 }
 
 .product-listing {
   display: flex;
-  max-width: 45%;
-  /* justify-self: end; */
 }
 
 #checkout-total {
@@ -471,12 +466,6 @@ a {
   margin: 1rem 0.5rem 0 1.5rem;
 }
 
-.cart-total {
-  background-color: rgb(237, 237, 75);
-  align-self: self-end;
-  width: 100%;
-}
-
 .product-name,
 .product-unit,
 .product-price {
@@ -491,6 +480,7 @@ a {
 .product-name {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .product-name-img {
@@ -499,7 +489,8 @@ a {
 
 .product-name-label {
   font-family: "gidole", "montserrat", "Times New Roman", Times, sans-serif;
-  font-size: x-large;
+  font-size: large;
+  padding-right: 2.5rem;
 }
 
 .product-unit {
@@ -533,7 +524,6 @@ a {
   padding: 1em;
   max-width: 31rem;
   margin-top: 1em;
-  /* margin-right: 45%; */
 }
 
 #payment-selector,
