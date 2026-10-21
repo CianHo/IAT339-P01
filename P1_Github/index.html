@@ -64,15 +64,6 @@
         <h4>Rendered element:</h4>
         <a class="button-nav qurova-text" href="#interactive_elements">Sample Navigation Link</a>
 
-        <!-- <h4>CSS selector:</h4>
-        <p>.button-nav</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <a class="button-nav" href="#">Default Button</a> -->
-
       </section>
 
 
@@ -232,11 +223,13 @@
         <h4>Sample code:</h4>
           <code>
             &lt;nav class="nav-main qurova-text"&gt; <br>
+              &lt;a href="#home" class="nav-main-item logo"&gt; &lt;img src="img\Logo.png" class="logo-image"&gt;&lt;/a&gt; <br>
               &lt;a href="#home" class="nav-main-item"&gt;Home&lt;/a&gt; <br>
               &lt;a href="#products" class="nav-main-item"&gt;Products&lt;/a&gt; <br>
               &lt;a href="#services" class="nav-main-item"&gt;Services&lt;/a&gt; <br>
               &lt;a href="#about" class="nav-main-item"&gt;About&lt;/a&gt; <br>
               &lt;a href="#contact" class="nav-main-item"&gt;Contact Us&lt;/a&gt; <br>
+              &lt;form class="text-input search-bar"&gt;&lt;label for="search-bar" class="text-input-label"&gt;&lt;input class="text-input-box" type="text" id="search-bar" name="search-bar" placeholder="Search"&gt;&lt;/label&gt;&lt;/form&gt;<br>
             &lt;/nav&gt;
           </code>
 
@@ -265,8 +258,10 @@
             &lt;div class="product-card"&gt; <br>
               &lt;figure&gt; <br>
                 &lt;img class="product-image" src="img/tajin.jpg" alt="A bottle of Tajin brand seasoning"&gt; <br>
+                &lt;div class="product-card-text"&gt; <br>
                 &lt;h4 class="product-card-name"&gt;Tajin&lt;/h4&gt; <br>
                 &lt;figcaption class="product-card-caption"&gt;$9.99 per Unit&lt;/figcaption&gt; <br>
+                &lt;/div&gt; <br>
               &lt;/figure&gt; <br>
               &lt;p&gt;Classic seasoning blend, ideal for adding a savoury-tangy flavour to your dishes&lt;/p&gt; <br>
               &lt;a class="nav-main-item product-card-link" href="#more-info" target="_self"&gt;More Info&lt;/a&gt; <br>
@@ -400,12 +395,12 @@
           <code>
             &lt;h3&gt;Checkout&lt;/h3&gt; <br>
              &lt;div class="cart-and-total-container"&gt; <br>
-            &lt;div id="cart-info"&gt; <br>
-              &lt;p class="cart-label left-box"&gt;Product&lt;/p&gt; <br>
-              &lt;p class="cart-label middle-box"&gt;Units&lt;/p&gt; <br>
-              &lt;p class="cart-label right-box"&gt;Price&lt;/p&gt; <br>
-            &lt;/div&gt; <br>
             &lt;div id="product-list"&gt; <br>
+              &lt;div id="cart-info"&gt; <br>
+                &lt;p class="cart-label left-box"&gt;Product&lt;/p&gt; <br>
+                &lt;p class="cart-label middle-box"&gt;Units&lt;/p&gt; <br>
+                &lt;p class="cart-label right-box"&gt;Price&lt;/p&gt; <br>
+              &lt;/div&gt; <br>
               &lt;div class="product-listing"&gt; <br>
                 &lt;div class="product-name"&gt; <br>
                   &lt;img class="product-name-img" src="img/tajin.jpg" alt="A bottle of Tajin brand seasoning"&gt; <br>
@@ -458,7 +453,7 @@
               <div class="product-listing">
                 <div class="product-name">
                   <img class="product-name-img" src="img/Manzana.jpg" alt="A bottle filled with a pink liquid">
-                  <p>Postobon Manzana</p>
+                  <p class="product-name-label">Postobon Manzana</p>
                 </div>
                 <p class="product-unit">70</p>
                 <p class="product-price">489.30</p>
